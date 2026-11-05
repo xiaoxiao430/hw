@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#822635">
+  <title>厚外成长 · 初高中 Demo 使用与接手说明</title>
+  <link rel="icon" href="assets/houwai-seal.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .document{max-width:1050px;margin:0 auto;padding:42px 32px 68px;font-size:16px;line-height:1.9}
+    .document-header{text-align:center;padding:20px 0 32px}.document-header img{width:55px;height:55px;margin:0 auto 17px}.document-header h1{font-size:31px;letter-spacing:0;margin:12px 0}.document-header p{color:var(--muted)}
+    .document-nav{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:24px 0}.document a{color:var(--wine);text-decoration:underline;text-underline-offset:4px}.document-nav .button{text-decoration:none;color:white}.document-nav .secondary{color:var(--wine)}
+    .document section{margin-top:25px;padding:28px;background:white;border:1px solid var(--line);border-radius:18px}.document h2{font-size:21px;margin:0 0 17px}.document h3{font-size:17px;margin:22px 0 9px}.document p+p{margin-top:12px}.document ul,.document ol{margin:10px 0 0;padding-left:25px}.document li+li{margin-top:8px}.document .notice{font-size:16px}
+    .document table{width:100%;border-collapse:collapse;font-size:16px;line-height:1.8}.document th,.document td{padding:14px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}.document th{background:var(--wine-soft);color:var(--wine);font-weight:700}.table-wrap{overflow:auto}.document th:first-child{min-width:110px}.document td{min-width:150px}
+    .document pre,.document code{font-family:var(--font);font-size:16px}.document pre{margin:15px 0 0;padding:20px;white-space:pre-wrap;overflow-wrap:anywhere;background:#f7f6f8;border:1px solid var(--line);border-radius:12px;line-height:1.8}.document code{overflow-wrap:anywhere}.source-path{display:block;margin-top:6px;color:var(--muted);overflow-wrap:anywhere}.document-footer{text-align:center;color:var(--muted);margin-top:32px}
+    @media(max-width:600px){.document{padding:22px 16px 40px}.document-header{padding:15px 0 23px}.document-header h1{font-size:25px}.document section{padding:22px 18px}.document th,.document td{padding:12px 10px}.document pre{padding:15px}}
+    @media print{.document-nav{display:none}.document{padding:0;max-width:none}.document section{break-inside:auto;border-radius:0;padding:18px 0}.document-header h1{font-size:25px}.document a{color:inherit;text-decoration:none}.table-wrap{overflow:visible}}
+  </style>
+</head>
+<body>
+<main class="document">
+  <header class="document-header">
+    <img src="assets/houwai-seal.png" alt="厚外校徽">
+    <p>做「懂」的教育 · 共创评审版</p>
+    <h1>厚外成长 · 初高中 Demo<br>使用与接手说明</h1>
+    <p>2026 年 11 月 6 日 · GitHub公开版 · 含智慧学习V0.1</p>
+    <nav class="document-nav" aria-label="说明页面导航">
+      <a class="button primary" href="index.html#/teacher/junior/home">打开可点击 Demo</a>
+      <a class="button secondary" href="learning-guide.html">智慧学习与手册V0.1</a><a class="button secondary" href="#scenarios">原有五组演示场景</a>
+      <a class="button secondary" href="#adapter">数据适配入口</a>
+      <a class="button secondary" href="验收记录.html">验收记录</a>
+    </nav>
+  </header>
+
+  <div class="notice">本包所有学生姓名、学情、作品、专业反馈与统计均为合成数据。各端共用一个本地演示状态，无真实 API、真实学生资料或在线 AI 服务。角色切换用于体验职责边界，不构成生产鉴权。</div>
+  <div id="font-status" class="notice amber" role="status">正在检查随包微软雅黑字体……</div>
+
+  <section id="start">
+    <h2>01 · 从哪里开始</h2>
+    <p>让学生看懂自己的变化，让教师把发现接到支持与复看，让家庭获得清楚可行的配合方式，让集团了解支持落实与教学改进的条件。</p>
+    <ol>
+      <li>macOS 双击交付根目录的“本地启动.command”。也可用 Python 3 执行同目录“启动.py”；均仅使用标准库，无需安装 npm 或 Python 包。</li>
+      <li>启动器自动选择空闲本地端口并打开浏览器，仅绑定 <code>127.0.0.1</code>。关闭终端或按 Control + C 停止服务。</li>
+      <li>顶部切换角色和初高中；手机点击右上角切换入口。先用教师端体验主流程，再切家长或学生查看变化。</li>
+      <li>点击“重置演示”恢复合成样本。操作保存在当前浏览器的当前站点；同一站点的标签页可同步。更换浏览器、设备或端口会使用独立状态。</li>
+    </ol>
+    <p>本地包资源完整，断网也可以运行。Python 3 是本地启动所需运行环境；不需依赖远程字体、CDN 或第三方脚本服务。</p>
+  </section>
+
+  <section id="map">
+    <h2>02 · 页面地图与角色边界</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>角色</th><th>主要页面</th><th>可以看与做什么</th><th>可见范围</th></tr></thead>
+      <tbody>
+        <tr><td><a href="index.html#/student/junior/home">学生端</a></td><td>本周／学习／成长／我的；学情详情、学习复盘、作品与实践</td><td>阅读自己的学情，设下一步目标，保存私人草稿，提交复盘和成长经历，选择家庭分享意愿</td><td>初中固定关联 j1，高中固定关联 s1；草稿仅本人，已发布反馈才进入本周</td></tr>
+        <tr><td><a href="index.html#/parent/junior/home">家长端</a></td><td>近况／学习／成长／我的；教师反馈、题目及作品详情</td><td>先看教师确认发布的解读，再展开成绩、知识点及相关成长记录</td><td>仅关联孩子的已发布学情、反馈和成长；无私人草稿、专业原始资料或班级排名</td></tr>
+        <tr><td><a href="index.html#/teacher/junior/home">教师端</a></td><td>工作台／学生／工具／我的；支持安排、反馈编辑、成长复核、数据来源、教研</td><td>班主任整合跨学科变化并确认家校反馈；数学科任查看数学学情、学习支持及提交给数学老师的复盘</td><td>初中香江路校区样本班、高中兴国路校区样本班；教师看不到学生未提交草稿</td></tr>
+        <tr><td><a href="index.html#/classroom/junior/home">课堂端</a></td><td>课前准备／独立作答／同伴讨论／再次作答／出口反馈</td><td>录入班级模拟答题分布、生成课后支持、提交成长复核</td><td>大屏只显示全班汇总，不包含学生姓名或个人困难；个人跟进在教师端处理</td></tr>
+        <tr><td><a href="index.html#/manager/junior/home">集团端</a></td><td>总览／学习／成长／支持与教研</td><td>按学段与校区查看合成汇总，安排教研复看，记录资源协作</td><td>返回授权汇总与教研案例，不返回个人学情、私人复盘、咨询记录或学生名单</td></tr>
+        <tr><td><a href="index.html#/counselor/junior/home">专业老师</a></td><td>待研判／协作事项／跟进记录</td><td>查看受限合成专业案例，研判后创建必要支持行动，跟进协作落实</td><td>仅当前学段的专业样本；必要行动交给班主任，量表答案与咨询原文保留在专业入口</td></tr>
+      </tbody>
+    </table></div>
+    <p>六好维度固定为：品德好、学习好、身心好、气质好、劳动好、特长好。记录不足显示“本期记录还不多”；记录次数不自动换算能力分数或排名。</p>
+  </section>
+
+  <section id="scenarios">
+    <h2>03 · 五组场景怎样操作</h2>
+    <h3>一、作业与考试 → 支持 → 再次反馈 → 家庭近况</h3>
+    <ol>
+      <li>教师工作台点击“查看并安排支持”，展开原题、来源、学生作答与知识点；点击“安排学习支持”，填写行动、跟进人和复看日期。</li>
+      <li>进入这条支持，分别体验“已有改善”与“仍需支持”，补充具体观察。有改善后可以完成本项支持。</li>
+      <li>整理本周反馈，修改“近期变化／学校已做什么／家庭可以怎样配合／学生的下一步”，保存并确认，再发布。</li>
+      <li>切到家长端“近况”和学生端“本周”，查看同一份已发布反馈。发布前，家庭不会收到教师草稿。</li>
+    </ol>
+    <h3>二、课堂讨论 → 课后跟进</h3>
+    <ol>
+      <li>从教师工具进入课堂，录入独立作答的 36 人合成分布，再进入同伴讨论。</li>
+      <li>录入再次作答，比较前后分布，收集出口反馈。纸笔或公共设备参与由模拟录入代表。</li>
+      <li>生成课后跟进或提交课堂成长；回教师端继续处理。重复操作不会重复创建同一条课堂事项。</li>
+    </ol>
+    <h3>三、学生表达 → 教师复核 → 全面成长</h3>
+    <ol>
+      <li>学生保存一段私人复盘，再切教师确认草稿不可见；学生选择提交给数学老师，并选择是否申请家庭分享。</li>
+      <li>教师阅读并确认复盘，系统生成待复核成长记录。教师再确认成长记录后，已选择分享的内容才进入家长成长页。</li>
+      <li>学生也可记录作品、运动、劳动或实践，写出实际贡献、收到的反馈与反思。未选择家庭分享的内容保留在师生范围。</li>
+    </ol>
+    <h3>四、专业研判 → 必要支持协作</h3>
+    <ol>
+      <li>专业老师进入合成案例，查看详细反馈，点击“研判后创建安全协作事项”。</li>
+      <li>切班主任查看必要行动、负责人和复看要求。普通家庭页与课堂大屏不接收原始心理记录。</li>
+      <li>更新协作观察或完成支持；集团只查看支持落实数量，不下钻专业私密内容。</li>
+    </ol>
+    <h3>五、集团观察 → 教研复看与资源协作</h3>
+    <ol>
+      <li>集团端按初高中及香江路／兴国路校区筛选，查看相应范围的学习、成长和支持汇总。</li>
+      <li>打开教研案例，结合覆盖样本、教学条件、前后表现与教师用时理解变化，安排下一次复看和资源协作。</li>
+      <li>切换高中版，体验“导数题先判断参数条件，再比较解题路径”的完整差异案例。初中重点为一次函数情境、订正与解释习惯。</li>
+    </ol>
+    <p>教研中的前后变化是合成观察资料，不能直接解释为某个教学方法带来的因果效果。管理页面的学生汇总与课堂 36 人答题分布属于不同模拟样本。</p>
+  </section>
+
+  <section id="states">
+    <h2>04 · 原始记录、建议与发布状态</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>对象</th><th>状态与门槛</th><th>家庭何时可见</th></tr></thead>
+      <tbody>
+        <tr><td>作业、考试原始记录</td><td>保留来源编号、来源、题目、学生、知识点和日期。新导入记录标记“原始数据 · 待教师解读”</td><td>相关教师反馈确认并发布后，关联学情才发布；新导入不直接对家庭开放</td></tr>
+        <tr><td>系统建议与反馈</td><td>模拟草稿 → 教师修改 → confirmed 确认 → published 发布；已确认后再修改，回到草稿</td><td>仅 published 可见；不能跳过教师确认直接发布</td></tr>
+        <tr><td>学生复盘</td><td>draft 草稿 → submitted 提交给明确教师 → confirmed 教师阅读确认；私人草稿不进入教师投影</td><td>家长不直接读取复盘列表；学生选分享后，经成长复核进入已发布成长记录</td></tr>
+        <tr><td>成长记录</td><td>pending 待复核 → confirmed 教师确认；另保存 published 家庭发布标记</td><td>同时满足教师确认与家庭发布。学生自主记录保留分享选择</td></tr>
+        <tr><td>支持事项</td><td>planned 已安排 → improving 有改善／continued 继续支持 → closed 完成</td><td>学科学习行动在本人支持视图可见；专业协作详情留在受限教师范围，通过教师沟通形成适当家庭反馈</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="adapter">
+    <h2>05 · 可调用的数据适配入口</h2>
+    <p><code>Store.importRecords(rows, ctx, options)</code> 接受作业／考试数组，返回 <code>{ok, message, added, duplicates, errors}</code>。<code>Store.adapters.normalizeRecords</code> 只规范化与校验，不写入。此入口处理合成对象，不发送网络请求。</p>
+    <pre>const rows = [{
+  sourceId: 'XF-DEMO-001',
+  source: '讯飞作业（模拟）',
+  externalStudentId: 'EXT-001',
+  type: 'homework', subject: '数学',
+  date: '2026-10-30', title: '情境中的起始量',
+  knowledge: '一次函数图像与情境',
+  question: '水箱原有20升水，每分钟注水3升，如何表达数量关系？',
+  answer: 'y=3x+20，20为起始量。',
+  studentAnswer: 'y=3x+20。',
+  errorReason: '需要进一步听取学生对起始量的解释。',
+  score: 8, maxScore: 10
+}];
+Store.importRecords(
+  rows,
+  {role:'teacher', stage:'junior', teacherKind:'head'},
+  {studentMap:{'EXT-001':'j1'}}
+);</pre>
+    <div class="table-wrap"><table>
+      <thead><tr><th>来源字段</th><th>本地字段与约束</th></tr></thead>
+      <tbody>
+        <tr><td>外部学生编号</td><td>externalStudentId 经 options.studentMap 映射到 studentId；也可传已知 studentId。必须属于当前教师的学段与班级范围</td></tr>
+        <tr><td>源系统、记录编号</td><td>source、sourceId 必填；与 type、studentId 组成去重键。相同记录重复导入跳过</td></tr>
+        <tr><td>类型、学科、时间</td><td>type 为 homework 或 exam；subject 必填；date 为有效 YYYY-MM-DD 日期</td></tr>
+        <tr><td>题目与表现</td><td>title、knowledge、question 必填；answer、studentAnswer、errorReason 可补充，保留原始依据</td></tr>
+        <tr><td>分数与满分</td><td>score、maxScore 为有效数字；满分大于 0，分数介于 0 和满分之间。比较时保持学科和满分口径一致</td></tr>
+        <tr><td>确认发布标记</td><td>输入 id、status、published 不被采信；本地生成记录 ID，统一进入待教师解读状态</td></tr>
+      </tbody>
+    </table></div>
+    <p>每批 1—500 条；任一无效行整批拒绝，不部分写入。初中样本 j1／j2 在香江路，高中 s1／s2 在兴国路；外部身份映射需要正式系统验证，不能沿用演示编号。页面数据来源可模拟“缺失”“失败”，恢复后安全重试；原有记录保留。</p>
+  </section>
+
+  <section id="handoff">
+    <h2>06 · Demo 与正式接入的区别</h2>
+    <p>本轮完成可点击网页、角色投影和共享本地流程。没有调用讯飞、考试、成长档案或心理系统，没有使用真实 AI 模型，没有改动数据库、微信小程序发布包或生产后台。</p>
+    <ul>
+      <li>当前 Store 是浏览器模拟数据层，Store.get() 仅用于内部 QA；浏览器中存在完整合成样本。前端隐藏字段不能替代服务端鉴权。</li>
+      <li>正式接入需核验学校、班级、科任与家长绑定关系；由服务端返回授权数据，隔离专业原始记录，并审计确认、发布和撤回。</li>
+      <li>来源编号、字段、学生主数据、数据可用性和同步机制仍需各系统联调；本轮仅保留适配入口及发布门槛。</li>
+      <li>草稿中的解读和建议均为预置模拟文本。正式 AI 结果仍需教师核实，学生状态不能由单次分数或量表自动定性。</li>
+      <li>同一浏览器同站点的标签页同步，不代表不同人员、设备或服务器之间的实时协作。</li>
+    </ul>
+  </section>
+
+  <section id="assets">
+    <h2>07 · 复用资产与字体</h2>
+    <p>品牌主色沿用酒红 <code>#822635</code>，保留红金层级、彩色圆润图标与厚德娃素材，减少装饰插画。页面字体统一为随包微软雅黑，正文 16px；动效集中在操作反馈，默认关闭声效。</p>
+    <ul>
+      <li>教师视觉与交互参考：<span class="source-path">厚外成长既有设计与教学资料</span></li>
+      <li>彩色图标 houwai-icons.js／houwai-icons.css：<span class="source-path">厚外成长既有设计与教学资料</span></li>
+      <li>校徽与厚德娃 reading／trophy／wink：复用同一交付目录 icon-library/assets。</li>
+      <li>原始正式前端参考：<span class="source-path">厚外成长既有设计与教学资料</span></li>
+      <li>思想与边界基线：<span class="source-path">厚外成长既有设计与教学资料</span>保留固定六好、教师审核、阶段画像与家长端边界；基线说明的真实后端融合状态不因本轮 Demo 改变。</li>
+    </ul>
+    <p>字体由既有交付中的 MicrosoftYaHei.ttf 与 MicrosoftYaHei-Bold.ttf 完整转换成 WOFF2，未做字符子集裁剪。最终网页包只保留 <code>assets/MicrosoftYaHei.woff2</code> 与 <code>assets/MicrosoftYaHei-Bold.woff2</code>，无需系统安装字体。若字体加载失败，页面明确提示，应修复字体资源后再正式交付或导出；不得静默替换字体。</p>
+  </section>
+
+  <section id="qa">
+    <h2>08 · 验证与后续评审</h2>
+    <p><code>node qa/store-check.cjs</code> 验证五组场景、角色投影、发布门槛、私人复盘、来源去重、无效批次、初高中独立、本地持久化、跨标签同步及存储不可用回退。公开仓库qa目录提供可运行的数据层检查；本页保留原六端的验收摘要。</p>
+    <p>评审建议分别邀请学生、班主任、科任、家长与管理者试走一次常用流程，记录“是否看懂变化、能否找到下一步、是否增加重复工作”。手机与一体机真机、正式身份链及真实系统接口需另行验收。</p>
+  </section>
+  <p class="document-footer">厚外成长 · 从看见，到理解，再到恰当的支持。</p>
+</main>
+<script>
+  (function () {
+    var status = document.getElementById('font-status');
+    if (!document.fonts || !document.fonts.load) { status.textContent = '当前浏览器无法验证微软雅黑加载，请使用现代浏览器，并确认字体后再导出。'; return; }
+    Promise.all([document.fonts.load('400 16px YaHei', '厚外成长'), document.fonts.load('700 16px YaHei', '厚外成长')]).then(function (faces) {
+      if (!faces[0].length || !faces[1].length) throw new Error('font missing');
+      status.className = 'notice green'; status.textContent = '字体已就绪：正文与粗体均已加载随包微软雅黑完整 WOFF2。';
+    }).catch(function () { status.className = 'notice amber'; status.textContent = '微软雅黑未能加载。请确认 assets 中两份 WOFF2 资源完整，修复后再正式交付或导出；不得静默替换字体。'; });
+  })();
+</script>
+</body>
+</html>

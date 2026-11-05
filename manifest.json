@@ -1,0 +1,1261 @@
+{
+  "name": "厚外成长 icon库",
+  "version": "1.2.0",
+  "updated": "2026-11-01",
+  "baselineCount": 26,
+  "count": 52,
+  "icons": [
+    {
+      "key": "home",
+      "label": "工作台",
+      "tags": [
+        "工作台",
+        "home",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/home.svg",
+      "png": {
+        "32": "png/32/home.png",
+        "64": "png/64/home.png",
+        "128": "png/128/home.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "tools",
+      "label": "工具",
+      "tags": [
+        "工具",
+        "tools",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/tools.svg",
+      "png": {
+        "32": "png/32/tools.png",
+        "64": "png/64/tools.png",
+        "128": "png/128/tools.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "call",
+      "label": "呼叫",
+      "tags": [
+        "呼叫",
+        "call",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/call.svg",
+      "png": {
+        "32": "png/32/call.png",
+        "64": "png/64/call.png",
+        "128": "png/128/call.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "camera",
+      "label": "照片",
+      "tags": [
+        "照片",
+        "camera",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/camera.svg",
+      "png": {
+        "32": "png/32/camera.png",
+        "64": "png/64/camera.png",
+        "128": "png/128/camera.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "star",
+      "label": "课堂点评",
+      "tags": [
+        "课堂点评",
+        "star",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/star.svg",
+      "png": {
+        "32": "png/32/star.png",
+        "64": "png/64/star.png",
+        "128": "png/128/star.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "book",
+      "label": "学习作业",
+      "tags": [
+        "学习作业",
+        "book",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/book.svg",
+      "png": {
+        "32": "png/32/book.png",
+        "64": "png/64/book.png",
+        "128": "png/128/book.png"
+      },
+      "palette": "green",
+      "colors": [
+        "#87d8b1",
+        "#4ebc94",
+        "#2c8e70"
+      ]
+    },
+    {
+      "key": "students",
+      "label": "学生",
+      "tags": [
+        "学生",
+        "students",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/students.svg",
+      "png": {
+        "32": "png/32/students.png",
+        "64": "png/64/students.png",
+        "128": "png/128/students.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "user",
+      "label": "老师",
+      "tags": [
+        "老师",
+        "user",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/user.svg",
+      "png": {
+        "32": "png/32/user.png",
+        "64": "png/64/user.png",
+        "128": "png/128/user.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "bell",
+      "label": "提醒",
+      "tags": [
+        "提醒",
+        "bell",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/bell.svg",
+      "png": {
+        "32": "png/32/bell.png",
+        "64": "png/64/bell.png",
+        "128": "png/128/bell.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "heart",
+      "label": "关爱",
+      "tags": [
+        "关爱",
+        "heart",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/heart.svg",
+      "png": {
+        "32": "png/32/heart.png",
+        "64": "png/64/heart.png",
+        "128": "png/128/heart.png"
+      },
+      "palette": "berry",
+      "colors": [
+        "#e895ad",
+        "#c45678",
+        "#8f3555"
+      ]
+    },
+    {
+      "key": "chart",
+      "label": "数据",
+      "tags": [
+        "数据",
+        "chart",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/chart.svg",
+      "png": {
+        "32": "png/32/chart.png",
+        "64": "png/64/chart.png",
+        "128": "png/128/chart.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "school",
+      "label": "学校",
+      "tags": [
+        "学校",
+        "school",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/school.svg",
+      "png": {
+        "32": "png/32/school.png",
+        "64": "png/64/school.png",
+        "128": "png/128/school.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "leaf",
+      "label": "成长",
+      "tags": [
+        "成长",
+        "leaf",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/leaf.svg",
+      "png": {
+        "32": "png/32/leaf.png",
+        "64": "png/64/leaf.png",
+        "128": "png/128/leaf.png"
+      },
+      "palette": "green",
+      "colors": [
+        "#87d8b1",
+        "#4ebc94",
+        "#2c8e70"
+      ]
+    },
+    {
+      "key": "file",
+      "label": "报告",
+      "tags": [
+        "报告",
+        "file",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/file.svg",
+      "png": {
+        "32": "png/32/file.png",
+        "64": "png/64/file.png",
+        "128": "png/128/file.png"
+      },
+      "palette": "violet",
+      "colors": [
+        "#b7a6ee",
+        "#8e79d5",
+        "#65539f"
+      ]
+    },
+    {
+      "key": "image",
+      "label": "相册",
+      "tags": [
+        "相册",
+        "image",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/image.svg",
+      "png": {
+        "32": "png/32/image.png",
+        "64": "png/64/image.png",
+        "128": "png/128/image.png"
+      },
+      "palette": "teal",
+      "colors": [
+        "#7bd9db",
+        "#3ab8c2",
+        "#268b9c"
+      ]
+    },
+    {
+      "key": "message",
+      "label": "沟通",
+      "tags": [
+        "沟通",
+        "message",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/message.svg",
+      "png": {
+        "32": "png/32/message.png",
+        "64": "png/64/message.png",
+        "128": "png/128/message.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "shield",
+      "label": "权限",
+      "tags": [
+        "权限",
+        "shield",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/shield.svg",
+      "png": {
+        "32": "png/32/shield.png",
+        "64": "png/64/shield.png",
+        "128": "png/128/shield.png"
+      },
+      "palette": "teal",
+      "colors": [
+        "#7bd9db",
+        "#3ab8c2",
+        "#268b9c"
+      ]
+    },
+    {
+      "key": "upload",
+      "label": "上传",
+      "tags": [
+        "上传",
+        "upload",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/upload.svg",
+      "png": {
+        "32": "png/32/upload.png",
+        "64": "png/64/upload.png",
+        "128": "png/128/upload.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "wifi",
+      "label": "连接",
+      "tags": [
+        "连接",
+        "wifi",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/wifi.svg",
+      "png": {
+        "32": "png/32/wifi.png",
+        "64": "png/64/wifi.png",
+        "128": "png/128/wifi.png"
+      },
+      "palette": "green",
+      "colors": [
+        "#87d8b1",
+        "#4ebc94",
+        "#2c8e70"
+      ]
+    },
+    {
+      "key": "info",
+      "label": "说明",
+      "tags": [
+        "说明",
+        "info",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/info.svg",
+      "png": {
+        "32": "png/32/info.png",
+        "64": "png/64/info.png",
+        "128": "png/128/info.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "trophy",
+      "label": "奖杯",
+      "tags": [
+        "奖杯",
+        "trophy",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/trophy.svg",
+      "png": {
+        "32": "png/32/trophy.png",
+        "64": "png/64/trophy.png",
+        "128": "png/128/trophy.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "video",
+      "label": "视频",
+      "tags": [
+        "视频",
+        "video",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/video.svg",
+      "png": {
+        "32": "png/32/video.png",
+        "64": "png/64/video.png",
+        "128": "png/128/video.png"
+      },
+      "palette": "berry",
+      "colors": [
+        "#e895ad",
+        "#c45678",
+        "#8f3555"
+      ]
+    },
+    {
+      "key": "scan",
+      "label": "识别",
+      "tags": [
+        "识别",
+        "scan",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/scan.svg",
+      "png": {
+        "32": "png/32/scan.png",
+        "64": "png/64/scan.png",
+        "128": "png/128/scan.png"
+      },
+      "palette": "violet",
+      "colors": [
+        "#b7a6ee",
+        "#8e79d5",
+        "#65539f"
+      ]
+    },
+    {
+      "key": "calendar",
+      "label": "日历",
+      "tags": [
+        "日历",
+        "calendar",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/calendar.svg",
+      "png": {
+        "32": "png/32/calendar.png",
+        "64": "png/64/calendar.png",
+        "128": "png/128/calendar.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "target",
+      "label": "专注",
+      "tags": [
+        "专注",
+        "target",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/target.svg",
+      "png": {
+        "32": "png/32/target.png",
+        "64": "png/64/target.png",
+        "128": "png/128/target.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "check",
+      "label": "确认",
+      "tags": [
+        "确认",
+        "check",
+        "教师"
+      ],
+      "source": "教师端 v1.1",
+      "version": "1.0.0",
+      "svg": "svg/check.svg",
+      "png": {
+        "32": "png/32/check.png",
+        "64": "png/64/check.png",
+        "128": "png/128/check.png"
+      },
+      "palette": "green",
+      "colors": [
+        "#87d8b1",
+        "#4ebc94",
+        "#2c8e70"
+      ]
+    },
+    {
+      "key": "hand",
+      "label": "积极举手",
+      "tags": [
+        "积极举手",
+        "hand",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/hand.svg",
+      "png": {
+        "32": "png/32/hand.png",
+        "64": "png/64/hand.png",
+        "128": "png/128/hand.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "light",
+      "label": "灵感发现",
+      "tags": [
+        "灵感发现",
+        "light",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/light.svg",
+      "png": {
+        "32": "png/32/light.png",
+        "64": "png/64/light.png",
+        "128": "png/128/light.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "clock",
+      "label": "课堂计时",
+      "tags": [
+        "课堂计时",
+        "clock",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/clock.svg",
+      "png": {
+        "32": "png/32/clock.png",
+        "64": "png/64/clock.png",
+        "128": "png/128/clock.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "shuffle",
+      "label": "随机点名",
+      "tags": [
+        "随机点名",
+        "shuffle",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/shuffle.svg",
+      "png": {
+        "32": "png/32/shuffle.png",
+        "64": "png/64/shuffle.png",
+        "128": "png/128/shuffle.png"
+      },
+      "palette": "violet",
+      "colors": [
+        "#b7a6ee",
+        "#8e79d5",
+        "#65539f"
+      ]
+    },
+    {
+      "key": "team",
+      "label": "小组合作",
+      "tags": [
+        "小组合作",
+        "team",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/team.svg",
+      "png": {
+        "32": "png/32/team.png",
+        "64": "png/64/team.png",
+        "128": "png/128/team.png"
+      },
+      "palette": "green",
+      "colors": [
+        "#87d8b1",
+        "#4ebc94",
+        "#2c8e70"
+      ]
+    },
+    {
+      "key": "gift",
+      "label": "课堂奖励",
+      "tags": [
+        "课堂奖励",
+        "gift",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/gift.svg",
+      "png": {
+        "32": "png/32/gift.png",
+        "64": "png/64/gift.png",
+        "128": "png/128/gift.png"
+      },
+      "palette": "berry",
+      "colors": [
+        "#e895ad",
+        "#c45678",
+        "#8f3555"
+      ]
+    },
+    {
+      "key": "pencil",
+      "label": "发布作业",
+      "tags": [
+        "发布作业",
+        "pencil",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/pencil.svg",
+      "png": {
+        "32": "png/32/pencil.png",
+        "64": "png/64/pencil.png",
+        "128": "png/128/pencil.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "note",
+      "label": "作业小贴",
+      "tags": [
+        "作业小贴",
+        "note",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/note.svg",
+      "png": {
+        "32": "png/32/note.png",
+        "64": "png/64/note.png",
+        "128": "png/128/note.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "undo",
+      "label": "撤销",
+      "tags": [
+        "撤销",
+        "undo",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/undo.svg",
+      "png": {
+        "32": "png/32/undo.png",
+        "64": "png/64/undo.png",
+        "128": "png/128/undo.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "sound",
+      "label": "声效",
+      "tags": [
+        "声效",
+        "sound",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/sound.svg",
+      "png": {
+        "32": "png/32/sound.png",
+        "64": "png/64/sound.png",
+        "128": "png/128/sound.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "motion",
+      "label": "动效",
+      "tags": [
+        "动效",
+        "motion",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/motion.svg",
+      "png": {
+        "32": "png/32/motion.png",
+        "64": "png/64/motion.png",
+        "128": "png/128/motion.png"
+      },
+      "palette": "violet",
+      "colors": [
+        "#b7a6ee",
+        "#8e79d5",
+        "#65539f"
+      ]
+    },
+    {
+      "key": "badge",
+      "label": "荣誉章",
+      "tags": [
+        "荣誉章",
+        "badge",
+        "课堂"
+      ],
+      "source": "课堂新增",
+      "version": "1.0.0",
+      "svg": "svg/badge.svg",
+      "png": {
+        "32": "png/32/badge.png",
+        "64": "png/64/badge.png",
+        "128": "png/128/badge.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "newspaper",
+      "label": "厚外头条",
+      "tags": [
+        "厚外头条",
+        "newspaper",
+        "资讯",
+        "校园新闻"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/newspaper.svg",
+      "png": {
+        "32": "png/32/newspaper.png",
+        "64": "png/64/newspaper.png",
+        "128": "png/128/newspaper.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "graduation",
+      "label": "招生报名",
+      "tags": [
+        "招生报名",
+        "graduation",
+        "招生",
+        "学校"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/graduation.svg",
+      "png": {
+        "32": "png/32/graduation.png",
+        "64": "png/64/graduation.png",
+        "128": "png/128/graduation.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "shopping-bag",
+      "label": "校园商城",
+      "tags": [
+        "校园商城",
+        "shopping-bag",
+        "商城",
+        "购物",
+        "校服"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/shopping-bag.svg",
+      "png": {
+        "32": "png/32/shopping-bag.png",
+        "64": "png/64/shopping-bag.png",
+        "128": "png/128/shopping-bag.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "career",
+      "label": "生涯规划",
+      "tags": [
+        "生涯规划",
+        "career",
+        "生涯",
+        "探索",
+        "方向"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/career.svg",
+      "png": {
+        "32": "png/32/career.png",
+        "64": "png/64/career.png",
+        "128": "png/128/career.png"
+      },
+      "palette": "violet",
+      "colors": [
+        "#b7a6ee",
+        "#8e79d5",
+        "#65539f"
+      ]
+    },
+    {
+      "key": "tech-support",
+      "label": "科技支持",
+      "tags": [
+        "科技支持",
+        "tech-support",
+        "信息科技",
+        "设备",
+        "家庭网络"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/tech-support.svg",
+      "png": {
+        "32": "png/32/tech-support.png",
+        "64": "png/64/tech-support.png",
+        "128": "png/128/tech-support.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "dining",
+      "label": "餐饮服务",
+      "tags": [
+        "餐饮服务",
+        "dining",
+        "餐饮",
+        "用餐",
+        "牛奶"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/dining.svg",
+      "png": {
+        "32": "png/32/dining.png",
+        "64": "png/64/dining.png",
+        "128": "png/128/dining.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "wallet",
+      "label": "缴费中心",
+      "tags": [
+        "缴费中心",
+        "wallet",
+        "缴费",
+        "账单",
+        "财务"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/wallet.svg",
+      "png": {
+        "32": "png/32/wallet.png",
+        "64": "png/64/wallet.png",
+        "128": "png/128/wallet.png"
+      },
+      "palette": "coral",
+      "colors": [
+        "#ff9a79",
+        "#ed6f58",
+        "#bd4f57"
+      ]
+    },
+    {
+      "key": "health",
+      "label": "健康管理",
+      "tags": [
+        "健康管理",
+        "health",
+        "健康",
+        "体检",
+        "预约"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/health.svg",
+      "png": {
+        "32": "png/32/health.png",
+        "64": "png/64/health.png",
+        "128": "png/128/health.png"
+      },
+      "palette": "green",
+      "colors": [
+        "#87d8b1",
+        "#4ebc94",
+        "#2c8e70"
+      ]
+    },
+    {
+      "key": "parcel",
+      "label": "商品订单",
+      "tags": [
+        "商品订单",
+        "parcel",
+        "订单",
+        "配送",
+        "包裹"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/parcel.svg",
+      "png": {
+        "32": "png/32/parcel.png",
+        "64": "png/64/parcel.png",
+        "128": "png/128/parcel.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "bookmark",
+      "label": "收藏",
+      "tags": [
+        "收藏",
+        "bookmark",
+        "阅读收藏"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/bookmark.svg",
+      "png": {
+        "32": "png/32/bookmark.png",
+        "64": "png/64/bookmark.png",
+        "128": "png/128/bookmark.png"
+      },
+      "palette": "berry",
+      "colors": [
+        "#e895ad",
+        "#c45678",
+        "#8f3555"
+      ]
+    },
+    {
+      "key": "lock",
+      "label": "匿名保护",
+      "tags": [
+        "匿名保护",
+        "lock",
+        "匿名",
+        "隐私",
+        "诉求"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/lock.svg",
+      "png": {
+        "32": "png/32/lock.png",
+        "64": "png/64/lock.png",
+        "128": "png/128/lock.png"
+      },
+      "palette": "violet",
+      "colors": [
+        "#b7a6ee",
+        "#8e79d5",
+        "#65539f"
+      ]
+    },
+    {
+      "key": "grid",
+      "label": "全部服务",
+      "tags": [
+        "全部服务",
+        "grid",
+        "服务大厅",
+        "全部服务"
+      ],
+      "source": "厚外服务新增",
+      "version": "1.1.0",
+      "svg": "svg/grid.svg",
+      "png": {
+        "32": "png/32/grid.png",
+        "64": "png/64/grid.png",
+        "128": "png/128/grid.png"
+      },
+      "palette": "blue",
+      "colors": [
+        "#83bdff",
+        "#538deb",
+        "#345bb5"
+      ]
+    },
+    {
+      "key": "broom",
+      "label": "今日值日",
+      "tags": [
+        "今日值日",
+        "broom",
+        "班务"
+      ],
+      "source": "班务新增",
+      "version": "1.1.0",
+      "svg": "svg/broom.svg",
+      "png": {
+        "32": "png/32/broom.png",
+        "64": "png/64/broom.png",
+        "128": "png/128/broom.png"
+      },
+      "palette": "gold",
+      "colors": [
+        "#ffd77b",
+        "#f3b444",
+        "#cc8631"
+      ]
+    },
+    {
+      "key": "megaphone",
+      "label": "班级寄语",
+      "tags": [
+        "班级寄语",
+        "megaphone",
+        "班务"
+      ],
+      "source": "班务新增",
+      "version": "1.1.0",
+      "svg": "svg/megaphone.svg",
+      "png": {
+        "32": "png/32/megaphone.png",
+        "64": "png/64/megaphone.png",
+        "128": "png/128/megaphone.png"
+      },
+      "palette": "berry",
+      "colors": [
+        "#e895ad",
+        "#c45678",
+        "#8f3555"
+      ]
+    }
+  ],
+  "palettes": {
+    "coral": [
+      "#ff9a79",
+      "#ed6f58",
+      "#bd4f57"
+    ],
+    "blue": [
+      "#83bdff",
+      "#538deb",
+      "#345bb5"
+    ],
+    "green": [
+      "#87d8b1",
+      "#4ebc94",
+      "#2c8e70"
+    ],
+    "gold": [
+      "#ffd77b",
+      "#f3b444",
+      "#cc8631"
+    ],
+    "berry": [
+      "#e895ad",
+      "#c45678",
+      "#8f3555"
+    ],
+    "violet": [
+      "#b7a6ee",
+      "#8e79d5",
+      "#65539f"
+    ],
+    "teal": [
+      "#7bd9db",
+      "#3ab8c2",
+      "#268b9c"
+    ]
+  }
+}
